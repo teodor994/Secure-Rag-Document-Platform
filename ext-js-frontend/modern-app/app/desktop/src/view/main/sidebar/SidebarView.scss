@@ -1,0 +1,36 @@
+.sidebar,
+.sidebar .x-body-el,
+.sidebar .x-panel-body-el,
+.sidebar .x-container-body-el {
+    background-color: #f0edf0 !important;
+}
+
+.sidebar .x-button {
+    background-color: #f0edf0 !important;
+    color: #1E2029;
+    border: 1px solid rgba(225,220,225, 0.45);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.sidebar .x-button .x-text-el {
+    color: #1E2029;
+}
+
+/* Hover */
+.sidebar .x-button:hover,
+.sidebar .x-button:hover .x-inner-el,
+.sidebar .x-button:hover .x-body-el,
+.sidebar .x-button:hover .x-text-el {
+    background-color: #e1dce1 !important;
+    border-color: #e1dce1;
+}
+
+/* Bara titlu */
+.sidebar .x-paneltitle,
+.sidebar .x-paneltitle .x-body-el,
+.sidebar .x-paneltitle .x-text-el {
+    color: #1E2029 !important;
+    font-weight: 600;
+    font-size: 18px;
+}

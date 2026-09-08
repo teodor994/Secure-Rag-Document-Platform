@@ -1,0 +1,36 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+### Spring
+Application/target/
+Application/.mvn/
+Application/mvnw
+Application/mvnw.cmd
+Application/*.jar
+Application/*.war
+Application/runLiquiBase.bat
+
+
+### Ext-js Frontend
+**/node_modules/
+ext-js-frontend/modern-app/build/
+ext-js-frontend/modern-app/generatedFiles/
+ext-js-frontend/modern-app/sencha-error-*.log
+ext-js-frontend/modern-app/.npm/
+
+.idea/
+**/.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+**/.webpack/
+**/.cache/
+**/npm-debug.log*
+
+.DS_Store
+Thumbs.db
+/run_liquibase.bat
+liquibase.properties
