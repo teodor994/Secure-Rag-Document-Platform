@@ -1,0 +1,11 @@
+# Ignore mock example files
+changelog/*.properties
+changelog/changelog-YYYY-MM-DD-HH-MM-SS-xml-name
+changelog/changelog-YYYY-MM-DD-HH-MM-SS-xml-name.xml
+changelog/liquibase.properties
+
+db/*.properties
+db/*.cfg
+
+lib/*.jar
+.idea/**

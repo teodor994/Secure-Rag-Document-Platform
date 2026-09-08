@@ -1,0 +1,1 @@
+DELETE FROM nodes WHERE name = 'test1' AND parent_id IS NULL;

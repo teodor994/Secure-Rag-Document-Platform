@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet id="20260812120000-001" author="teodor994">
+        <tagDatabase tag="version_1.05_pre"/>
+    </changeSet>
+    <changeSet id="20260812120000-002" author="teodor994">
+        <comment>SQL file: changelog-2026-08-12-12-00-00-node-update/node-update.sql</comment>
+        <sqlFile splitStatements="true" relativeToChangelogFile="true" stripComments="true"
+                 path="changelog-2026-08-12-12-00-00-node-update/node-update.sql"
+        />
+        <rollback>
+            <sqlFile splitStatements="true" relativeToChangelogFile="true" endDelimiter="GO" stripComments="true"
+                     path="changelog-2026-08-12-12-00-00-node-update/node-update.rollback.sql"
+            />
+        </rollback>
+    </changeSet>
+    <changeSet id="20260812120000-003" author="teodor994">
+        <tagDatabase tag="version_1.05"/>
+    </changeSet>
+</databaseChangeLog>

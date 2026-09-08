@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-10-18-00-00-test-users.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-11-12-00-00-mock-users.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-11-14-16-00-nodes.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-11-15-00-00-mock-populating-nodes.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-11-16-00-00-session-tables.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-12-12-00-00-node-update.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-17-14-00-00-role-perm-add.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-17-15-30-00-node-access-add.xml" />
+    <include relativeToChangelogFile="true" file="./changelog-2026-08-21-12-10-00-embeddings.xml" />
+</databaseChangeLog>

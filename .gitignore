@@ -33,5 +33,15 @@ out/
 .DS_Store
 Thumbs.db
 
+# Ignore mock example files
+DocumentDBmig/changelog/*.properties
+DocumentDBmig/changelog/changelog-YYYY-MM-DD-HH-MM-SS-xml-name
+DocumentDBmig/changelog/changelog-YYYY-MM-DD-HH-MM-SS-xml-name.xml
+DocumentDBmig/changelog/liquibase.properties
 
+DocumentDBmig/db/*.properties
+DocumentDBmig/db/*.cfg
+
+DocumentDBmig/lib/*.jar
+DocumentDBmig/.idea/**
 
